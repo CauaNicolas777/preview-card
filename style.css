@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: "MontSerrat", sans-serif;
+    background-color: hsl(30, 38%, 92%);
+    min-height: 100vh;
+}
+.container{
+    margin: 0 auto;
+    max-width: 450px;
+    display: flex;
+    align-items: center;
+}
+.card {
+    background-color: white;
+    display: flex;
+    margin-top: 25%;
+    border-radius: 8px;
+    
+}
+img{
+    width: 250px;
+    border-radius: 8px 0 0 8px;
+}
+.subtitulo{
+    letter-spacing: 3px;
+}
+.text{
+    padding: 25px;
+}
+.text h1{
+    font-family: "Fraunces", sans-serif;
+    
+}
+.text p{
+    color: hsl(228, 12%, 48%);
+    margin: 18px 0;
+}
+.sla{
+    display: flex;
+}
+.sla .valor1 {
+    color: hsl(158, 36%, 37%);
+    font-size: 30px;
+    font-family: "Fraunces", sans-serif;
+}
+.valor2{
+    padding: 10px;
+}
+button{
+    font-family: "Fraunces", sans-serif;
+    color: white;
+    width: 200px;
+    background-color: hsl(158, 36%, 37%);
+    font-size: 11px;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
